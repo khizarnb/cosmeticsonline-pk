@@ -66,7 +66,7 @@ export const INITIAL_BRANDS: Brand[] = [
     name: "d'Alba",
     slug: 'dalba',
     origin: 'South Korea & Italy',
-    bannerUrl: 'https://images.unsplash.com/photo-1512290900672-1f41d99cece2?q=80&w=1200&auto=format&fit=crop',
+    bannerUrl: 'https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=1200&auto=format&fit=crop',
     description: 'Luxurious Italian White Truffle infused glow skincare and the globally viral First Spray Serum.',
     isFeatured: true,
     productCount: 6,
@@ -76,7 +76,7 @@ export const INITIAL_BRANDS: Brand[] = [
     name: 'Dear Klairs',
     slug: 'klairs',
     origin: 'South Korea',
-    bannerUrl: 'https://images.unsplash.com/photo-1556228722-d0b77b7f1e63?q=80&w=1200&auto=format&fit=crop',
+    bannerUrl: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200&auto=format&fit=crop',
     description: 'Simple but enough. Cruelty-free, vegan-friendly skincare meticulously crafted for even the most reactive skin.',
     isFeatured: true,
     productCount: 7,
@@ -304,7 +304,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     reviewCount: 1935,
     images: [
       'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=800&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1556228722-d0b77b7f1e63?q=80&w=800&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop'
     ],
     thumbnail: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=800&auto=format&fit=crop',
     isBestseller: true,
@@ -620,9 +620,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     rating: 4.9,
     reviewCount: 3820,
     images: [
-      'https://images.unsplash.com/photo-1512290900672-1f41d99cece2?q=80&w=800&auto=format&fit=crop'
+      'https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=800&auto=format&fit=crop'
     ],
-    thumbnail: 'https://images.unsplash.com/photo-1512290900672-1f41d99cece2?q=80&w=800&auto=format&fit=crop',
+    thumbnail: 'https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=800&auto=format&fit=crop',
     isBestseller: true,
     inStock: true,
     stockQuantity: 30,

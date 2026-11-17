@@ -75,7 +75,7 @@ export const HomePage: React.FC = () => {
     {
       title: 'Gift Sets',
       path: '/collection/gift-sets',
-      image: 'https://images.unsplash.com/photo-1512290900672-1f41d99cece2?q=80&w=400&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?q=80&w=600&auto=format&fit=crop',
     },
   ];
 
@@ -130,6 +130,9 @@ export const HomePage: React.FC = () => {
                   src={cat.image}
                   alt={cat.title}
                   loading="lazy"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=400&auto=format&fit=crop';
+                  }}
                   className="w-full h-full object-cover rounded-lg group-hover:scale-110 transition-transform duration-500"
                 />
               </div>

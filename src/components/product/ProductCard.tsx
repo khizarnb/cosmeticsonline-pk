@@ -54,6 +54,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({
               src={product.thumbnail}
               alt={product.name}
               loading="lazy"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop';
+              }}
               className="w-full h-full object-contain mix-blend-multiply group-hover:scale-108 transition-transform duration-500 ease-out"
             />
           </Link>

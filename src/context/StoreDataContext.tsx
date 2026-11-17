@@ -24,10 +24,10 @@ interface StoreDataContextType {
 const StoreDataContext = createContext<StoreDataContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  PRODUCTS: 'cosmetics_online_products_v1',
-  BRANDS: 'cosmetics_online_brands_v1',
-  ORDERS: 'cosmetics_online_orders_v1',
-  COUPONS: 'cosmetics_online_coupons_v1',
+  PRODUCTS: 'cosmetics_online_products_v2',
+  BRANDS: 'cosmetics_online_brands_v2',
+  ORDERS: 'cosmetics_online_orders_v2',
+  COUPONS: 'cosmetics_online_coupons_v2',
 };
 
 export const StoreDataProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
